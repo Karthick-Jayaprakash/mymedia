@@ -24,27 +24,27 @@ function LeftBar() {
       <div className="container">
         <div className="menu">
           <div className="user">
-            <img src={currentUser.pic}></img>
+            <img src={currentUser.pic} alt=""></img>
             <span>{currentUser.name}</span>
           </div>
           <div className="item">
-            <img src={Friends} alt="image" />
+            <img src={Friends} alt="" />
             <span>Friends</span>
           </div>
           <div className="item">
-            <img src={Groups} alt="image" />
+            <img src={Groups} alt="" />
             <span>Groups</span>
           </div>
           <div className="item">
-            <img src={MarketPlace} alt="image" />
+            <img src={MarketPlace} alt="" />
             <span>Market Place</span>
           </div>
           <div className="item">
-            <img src={Watch} alt="image" />
+            <img src={Watch} alt="" />
             <span>Watch</span>
           </div>
           <div className="item">
-            <img src={Memories} alt="image" />
+            <img src={Memories} alt="" />
             <span>Memories</span>
           </div>
         </div>
@@ -52,23 +52,23 @@ function LeftBar() {
         <div className = "menu">
           <span>Your Shortcuts</span>
           <div className="item">
-            <img src={Events} alt="image" />
+            <img src={Events} alt="" />
             <span>Events</span>
           </div>
           <div className="item">
-            <img src={Gaming} alt="image" />
+            <img src={Gaming} alt="" />
             <span>Gaming</span>
           </div>
           <div className="item">
-            <img src={Gallery} alt="image" />
+            <img src={Gallery} alt="" />
             <span>Gallery</span>
           </div>
           <div className="item">
-            <img src={Videos} alt="image" />
+            <img src={Videos} alt="" />
             <span>Videos</span>
           </div>
           <div className="item">
-            <img src={Messages} alt="image" />
+            <img src={Messages} alt="" />
             <span>Messages</span>
           </div>
         </div>
@@ -76,15 +76,15 @@ function LeftBar() {
         <div className = "menu">
           <span>Others</span>
           <div className="item">
-            <img src={FundRaiser} alt="image" />
+            <img src={FundRaiser} alt="" />
             <span>Fundraiser</span>
           </div>
           <div className="item">
-            <img src={Tutorials} alt="image" />
+            <img src={Tutorials} alt="" />
             <span>Tutorials</span>
           </div>
           <div className="item">
-            <img src={Courses} alt="image" />
+            <img src={Courses} alt="" />
             <span>Courses</span>
           </div>
         </div>

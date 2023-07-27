@@ -1,7 +1,6 @@
 import HomeIcon from '@mui/icons-material/Home';
 import DarkModeIcon from '@mui/icons-material/DarkMode';
 import LightModeIcon from '@mui/icons-material/LightMode';
-import SearchIcon from '@mui/icons-material/Search';
 import AppsIcon from '@mui/icons-material/Apps';
 import PersonIcon from '@mui/icons-material/Person';
 import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';
@@ -28,7 +27,7 @@ function Navbar() {
         <PersonIcon/>
         <NotificationsNoneIcon/>
         <MailOutlineIcon/>
-        <img src={currentUser.pic}></img>
+        <img src={currentUser.pic} alt=""></img>
         <span>{currentUser.name}</span>
       </div>
     </div>

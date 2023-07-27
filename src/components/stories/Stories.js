@@ -28,7 +28,7 @@ function Stories() {
     <div className="Stories">
         <div className="my-profile story">
           <div className='image'>
-            <img src={currentUser.pic}></img>
+            <img src={currentUser.pic} alt=""></img>
             <div className= "overlay">
               <AddCircleIcon style={{display:"block", color:"blue", backgroundColor:"white", borderRadius:'50%',cursor:"pointer"}}/>
               <span>{currentUser.name}</span>

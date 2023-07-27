@@ -9,7 +9,7 @@ import Navbar from './components/navbar/Navbar'
 import {useContext} from 'react'
 import {DarkModeContext} from './context/DarkModeContext.js'
 import {AuthContext} from './context/AuthContext.js'
-import {createBrowserRouter,RouterProvider,Route,Outlet,Navigate} from 'react-router-dom'
+import {createBrowserRouter,RouterProvider,Outlet,Navigate} from 'react-router-dom'
 function App() {
 
   const {currentUser}= useContext(AuthContext);
