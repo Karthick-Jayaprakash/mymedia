@@ -7,6 +7,7 @@ function Login() {
   const {login} = useContext(AuthContext);
   const navigate = useNavigate()
   const handleLogin = (e) =>{
+    login()
     e.preventDefault()
     navigate('/')
   }
